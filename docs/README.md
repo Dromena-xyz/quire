@@ -1,25 +1,26 @@
-# Quire documentation
+# Quire Documentation
 
-Quire organizes a long writing project as ordered scene files in Obsidian, and
-brings them together when it is time to read or export. Each project is a folder
-of scene notes plus a small index that records their order and nesting. You
-write in plain Markdown files; Quire gives you the structure around them.
+Quire organizes a long writing project as ordered scene notes in your Obsidian
+vault, and brings them together when it is time to read, revise, or export. Each
+project is a folder of scene notes plus a small index that records their order
+and nesting. You write in ordinary Markdown notes; Quire gives you the structure
+around them.
 
 ## Guides
 
-- [Getting started](getting-started.md). Install, activate, and make your first project.
-- [Projects and scenes](projects-and-scenes.md). How a project is laid out on disk.
-- [The scene list](the-scene-list.md). Reorder, nest, multi-select, and ignore scenes.
-- [Galley](galley.md). Edit a whole project as one document.
-- [Compile](compile.md). Assemble your scenes into a finished manuscript.
-- [Importing from Longform](importing-from-longform.md). Bring existing projects across.
-- [Settings](settings.md). Every option, in one place.
-- [Licensing](licensing.md). Activation, devices, and offline use.
+1. [Getting Started](01-getting-started.md). Install, activate, and make your first project.
+2. [Projects and Scenes](02-projects-and-scenes.md). How a project is put together in your vault.
+3. [The Scene List](03-the-scene-list.md). Reorder, nest, select, and ignore scenes.
+4. [Galley](04-galley.md). Write and revise a whole project as one document.
+5. [Compile](05-compile.md). Assemble your scenes into a finished manuscript.
+6. [Coming from Longform](06-coming-from-longform.md). Bring your existing projects across.
+7. [Settings](07-settings.md). Every option, in one place.
+8. [Licensing](08-licensing.md). Activation, devices, and offline use.
 
 ## Install
 
-Quire is distributed outside Obsidian's community directory. Install it with the
-[BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin (add
-`Dromena-xyz/quire` as a beta plugin) or by downloading the latest release and
-copying it into your vault. Full steps are on the
-[main page](https://github.com/Dromena-xyz/quire).
+Quire is closed-source, so it is distributed outside Obsidian's community plugin
+directory, which lists open-source plugins only. You install it with the
+[BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin or by downloading a
+release by hand. Full steps are in [Getting Started](01-getting-started.md) and
+on the [main page](https://github.com/Dromena-xyz/quire).
