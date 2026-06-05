@@ -33,7 +33,7 @@ You can create a project two ways:
 
 - **From the file explorer.** Right-click any folder and choose **New Quire
   project**.
-- **From the command palette.** Run **Create a new Quire project**.
+- **From the command palette.** Run **Create new project**.
 
 Either way, Quire asks for a name, makes a project folder for it, and opens the
 Quire pane focused on it. A project can sit anywhere in your vault, but not

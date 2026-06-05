@@ -18,6 +18,8 @@ reorderable, nestable outline. Drag to reorder, nest one scene under another,
 and move a parent to carry its children with it. They stay ordinary notes
 throughout, so the rest of Obsidian keeps working on them.
 
+<img src="images/scene-list.png" width="240" alt="The Quire pane showing a project's scenes as a nested outline, with several selected">
+
 **Galley.** Open a scene together with its children, or hand-pick any set of
 scenes, and write them as one flowing document. Your edits save back into each
 individual scene as you type, so you get the focus of a single page without
@@ -121,15 +123,13 @@ same activation step.
    select **Compile**. Quire writes the finished manuscript into your vault and
    tells you where it landed.
 
-<img src="images/scene-list.png" width="240" alt="The Quire pane: a project's nested scenes, several selected, and the Open in Galley button">
-
 For a closer look at each feature, see the **[documentation](docs/)**.
 
 ## Coming from Longform?
 
 Quire imports your existing Longform projects. Run **Import a Longform project**
-from the command palette, or open **Settings → Quire** and select **Import**
-under "Switching from Longform." Quire finds your Longform projects and brings
+from the command palette, or open **Settings → Quire** and select **Import a
+project** under "Switching from Longform." Quire finds your Longform projects and brings
 them in without changing or deleting anything Longform owns. You can copy a
 project into a new folder, or add a Quire index in place next to the Longform
 one. Either way Quire shows you exactly what will happen before it writes
