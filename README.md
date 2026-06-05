@@ -108,8 +108,8 @@ same activation step.
    one. Drag a scene **between** two rows to reorder it, drop it **onto** another
    scene to nest it as a child, or drop it **below the list** to move it to the
    top level. Right-click a scene for **Outdent**/**Indent** if you'd rather move
-   one level at a time. Select several scenes — modifier-click, or **Add to
-   selection** in the menu — to move, nest, delete, or ignore them as a group,
+   one level at a time. Select several scenes (modifier-click, or **Add to
+   selection** in the menu) to move, nest, delete, or ignore them as a group,
    children included.
 4. **Write in Galley.** Right-click a scene and choose **Open in Galley** to
    write it and its children together as one continuous document, or select
