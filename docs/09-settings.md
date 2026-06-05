@@ -9,7 +9,7 @@ The first section, because nothing else in Quire works without it. Paste your ke
 and **Activate**, see your **Status** and **Activations**, use **Check status
 now** to re-confirm on demand, and **Deactivate this vault on this device** to
 free an activation for another machine. Full details are in
-[Licensing](08-licensing.md).
+[Licensing](10-licensing.md).
 
 ## Updates
 

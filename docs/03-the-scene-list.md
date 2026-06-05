@@ -26,7 +26,7 @@ at once, so you can work at the chapter level or zoom into a scene.
 
 ## Select Several at Once
 
-Hold the multi-select modifier (set under [Settings](07-settings.md)) and click,
+Hold the multi-select modifier (set under [Settings](09-settings.md)) and click,
 or use **Add to selection** in a scene's menu, to select more than one scene.
 With a selection you can move, nest, open as a [Galley](04-galley.md), ignore, or
 delete them all at once. Selecting a parent brings its children along.

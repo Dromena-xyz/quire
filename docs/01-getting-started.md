@@ -24,7 +24,7 @@ BRAT then keeps Quire current as new releases ship.
 ## Activate
 
 Open `Settings > Quire`, paste your license key under **License**, and click
-**Activate** (or press Enter in the key field). See [Licensing](08-licensing.md)
+**Activate** (or press Enter in the key field). See [Licensing](10-licensing.md)
 for how activation, devices, and offline use work.
 
 ## Make a Project

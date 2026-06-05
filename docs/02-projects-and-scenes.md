@@ -44,4 +44,7 @@ goes missing, because you moved or deleted it outside Quire, its row still appea
 and is marked as missing until you restore the note or remove the entry. Your
 structure is never lost just because a file moved.
 
+For the exact shape of the index and a full tour of where everything lives, see
+[How Quire Stores Your Work](08-how-quire-stores-your-work.md).
+
 Next, shape your draft in [The Scene List](03-the-scene-list.md).

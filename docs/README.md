@@ -14,8 +14,10 @@ around them.
 4. [Galley](04-galley.md). Write and revise a whole project as one document.
 5. [Compile](05-compile.md). Assemble your scenes into a finished manuscript.
 6. [Coming from Longform](06-coming-from-longform.md). Bring your existing projects across.
-7. [Settings](07-settings.md). Every option, in one place.
-8. [Licensing](08-licensing.md). Activation, devices, and offline use.
+7. [Commands](07-commands.md). Every command, for the keyboard and hotkeys.
+8. [How Quire Stores Your Work](08-how-quire-stores-your-work.md). Where your writing lives, in plain files.
+9. [Settings](09-settings.md). Every option, in one place.
+10. [Licensing](10-licensing.md). Activation, devices, and offline use.
 
 ## Install
 
