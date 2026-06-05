@@ -121,6 +121,8 @@ same activation step.
 
 <!-- screenshot: a fresh project in the Quire pane with a few scenes, the Open in Galley menu item visible -->
 
+For a closer look at each feature, see the **[documentation](docs/)**.
+
 ## Coming from Longform?
 
 Quire imports your existing Longform projects. Run **Import a Longform project**
