@@ -8,7 +8,7 @@ document, and compile the result into a finished manuscript for a reader or
 editor. It's made for work that outgrows a single note: a novel, a
 dissertation, a screenplay, and more.
 
-<!-- screenshot: the Quire pane open beside an editor, a project's nested scene list on the left, prose on the right -->
+![A Quire project: the nested scene list beside the editor](images/quire-overview.gif)
 
 ## What you get
 
@@ -24,7 +24,7 @@ individual scene as you type, so you get the focus of a single page without
 losing the outline underneath. Writers who know Scrivener will recognize the
 idea as Scrivenings. Galley is Quire's version, rebuilt for Obsidian.
 
-<!-- screenshot: a Galley session, several scenes flowing together as one document with subtle boundaries between them -->
+![A Galley: several scenes flowing together as one document with dividers between them, the scene list on the left](images/galley.png)
 
 **Compile.** Turn your scenes into one finished manuscript. You assemble a
 *workflow* from steps that tidy the draft on the way out, dropping frontmatter,
@@ -34,7 +34,7 @@ writing the result to any note. Scenes can sit out of a compile without being
 deleted, and every project keeps its own workflow, so a novel and a research
 paper export differently.
 
-<!-- screenshot: the Compile tab, a workflow's steps listed with the Compile button below -->
+<img src="images/compile.png" width="240" alt="The Compile tab: a workflow's steps with their Scene and Join roles">
 
 ## Buy a license
 
@@ -79,6 +79,8 @@ same activation step.
 5. Open **Settings → Quire**, paste the license key from your purchase email,
    and select **Activate**.
 
+![Adding Dromena-xyz/quire as a BRAT beta plugin](images/brat-add-plugin.png)
+
 ### By hand (you control updates)
 
 1. From the
@@ -97,7 +99,7 @@ same activation step.
 
 ## Getting started
 
-<!-- screenshot: the "New Quire project" item in a folder's right-click menu -->
+<img src="images/new-project-menu.png" width="200" alt="The New Quire project item in a folder's right-click menu">
 
 1. **Create a project.** Right-click any folder and choose **New Quire
    project**, then give it a name. Quire makes a fresh project folder for it. A
@@ -119,7 +121,7 @@ same activation step.
    select **Compile**. Quire writes the finished manuscript into your vault and
    tells you where it landed.
 
-<!-- screenshot: a fresh project in the Quire pane with a few scenes, the Open in Galley menu item visible -->
+<img src="images/scene-list.png" width="240" alt="The Quire pane: a project's nested scenes, several selected, and the Open in Galley button">
 
 For a closer look at each feature, see the **[documentation](docs/)**.
 
