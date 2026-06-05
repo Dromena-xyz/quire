@@ -1,0 +1,3 @@
+# Local-only — never part of the public release repo
+.DS_Store
+.claude/
