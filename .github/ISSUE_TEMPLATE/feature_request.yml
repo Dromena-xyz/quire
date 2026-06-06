@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest an idea or improvement for Quire.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched existing issues and didn't find this already requested.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The use case behind the request, and what's awkward or missing today.
+      placeholder: "When I'm writing a..., I want to... but right now..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Quire to do?
+      description: Your idea for how it could work.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Anything you've tried, or other ways this might work.
+    validations:
+      required: false
