@@ -1,0 +1,38 @@
+name: Compile step request
+description: Suggest a new built-in compile step.
+title: "[Compile step]: "
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched existing issues and didn't find this already requested.
+          required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should the step do?
+      description: The transform you'd like, in plain terms.
+      placeholder: "A step that..."
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: What does it operate on?
+      description: Per-scene text before scenes are joined, or the whole draft after?
+      options:
+        - Each scene (before they are joined)
+        - The joined draft or manuscript (after)
+        - Not sure
+    validations:
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: Example before and after
+      description: A short sample of the input and the output you would expect.
+    validations:
+      required: false

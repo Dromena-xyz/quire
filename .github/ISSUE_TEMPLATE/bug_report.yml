@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in Quire isn't working as expected.
+description: Create a report to help improve Quire.
 title: "[Bug]: "
 labels: ["bug"]
 body:
