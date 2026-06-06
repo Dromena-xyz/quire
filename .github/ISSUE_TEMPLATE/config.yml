@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: License or payment help
-    url: mailto:hello@quire.dromena.xyz
-    about: For your license, activation, or anything about a payment, email us. Please don't post license details in a public issue.
+    url: https://github.com/Dromena-xyz/quire#support
+    about: For your license, activation, or anything about a payment, email hello@quire.dromena.xyz. Please don't post license details in a public issue.
