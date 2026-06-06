@@ -42,8 +42,8 @@ paper export differently.
 
 Two ways to pay, and both unlock everything:
 
-- **[Subscribe, $5 a month](SUBSCRIBE_LINK)**
-- **[Pay once, $34 or more](ONETIME_LINK)**
+- **[Subscribe, $5 a month](https://buy.stripe.com/9B69AU4i39tg4Bq92dbAs05)**
+- **[Pay once, $34 or more](https://buy.stripe.com/cNi4gA4i3bBod7W5Q1bAs07)**
 
 A subscription converts to a permanent license after ten monthly payments. From
 then on Quire is yours to keep. The subscription keeps billing until you cancel
