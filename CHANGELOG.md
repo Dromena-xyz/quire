@@ -9,6 +9,48 @@ Quire follows Semantic Versioning, `MAJOR.MINOR.PATCH`:
 Each release is published to GitHub (BRAT installs and updates from it) with its
 notes mirrored here.
 
+## [Unreleased]
+
+### Added
+
+- **Custom compile steps.** Write your own compile step in JavaScript, run in a
+  sandbox with no file, network, or system access. Manage your steps in
+  **Settings → Quire → Custom steps**, or create one inline from **Add step** in
+  the Compile tab. A step runs per scene or on the whole manuscript depending on
+  whether you place it before or after the join step, and a whole compile is
+  capped by an overall time budget so a slow step cannot hang Obsidian. See
+  [Custom Compile Steps](docs/12-custom-compile-steps.md).
+- **Compile from the command palette.** A **Compile a project** command opens the
+  Quire pane on the Compile tab so you can run a workflow without leaving the
+  keyboard.
+- **Scene styling hooks.** Quire now tags your writing surface with CSS classes
+  so you can style it, and only it, with a snippet: `quire-leaf` on scenes, the
+  project index, and Galleys, and `quire-galley` on Galleys. Coming from
+  Longform, `.longform-leaf` maps to `.quire-leaf`. See
+  [Styling Your Scenes](docs/11-styling-your-scenes.md).
+
+### Changed
+
+- **Save as note** now has separate **Folder** and **File name** fields instead
+  of one path. The folder field autocompletes vault folders, both fields take the
+  date and project placeholders, and a new step defaults to saving a note named
+  after your project in the project folder.
+- **The Compile tab is easier to read:** more space between steps, and a numbered
+  badge on each.
+- **Managing ignored scenes is smoother:** the "show ignored" toggle stays on as
+  you switch tabs and projects, there is an **Unignore all**, and Cmd/Ctrl-click
+  opens an ignored file in a new tab.
+- **Collapse-all / expand-all** shows only the control that applies.
+
+### Fixed
+
+- Renaming an ignored scene no longer makes it reappear in a compile.
+- Opening a Galley places the cursor in the first scene's text, not at the top of
+  the temporary file.
+- Closing a Galley no longer opens a duplicate tab for a scene you already had
+  open.
+- Dragging a scene no longer offers a drop that would not actually move it.
+
 ## 1.0.0
 
 The first public release. Quire organizes a long writing project as ordered
