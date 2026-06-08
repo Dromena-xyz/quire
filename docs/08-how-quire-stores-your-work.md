@@ -58,6 +58,24 @@ Take" and "Pastries in the Pantry" are children of "An Unexpected Party."
 You normally never open this note, but nothing stops you. If you understand the
 shape above, you can read it, back it up, or repair it by hand.
 
+## Files and Folders Quire Leaves Alone
+
+Quire manages only your scene notes and the index. Everything else in a project
+folder is yours to organize as you like:
+
+- **A stray note** in the scene folder — one that is not in the scene list —
+  shows in the Quire pane as *untracked*. Quire never pulls it in or changes it
+  on its own; you choose whether to add it as a scene or have Quire ignore it.
+- **A subfolder, and everything inside it, is ignored.** Quire reads only the
+  notes that sit directly in the scene folder, so you can keep research, images,
+  outlines, or loose notes in a subfolder without any of it ever showing up as a
+  scene. Nothing is hidden or moved — it simply isn't Quire's concern. A
+  subfolder matters to Quire only when it holds its own `_quire_index.md`, at
+  which point it is just another Quire project.
+
+The rule is simple: a folder needs a `_quire_index.md` to mean anything to
+Quire. Without one, it stays out of the way.
+
 ## Quire's Own Settings
 
 Two things are not in your project folder:
