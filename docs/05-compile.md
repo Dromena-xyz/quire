@@ -8,7 +8,7 @@ final document, and you can keep different recipes for different outputs.
 ## Workflows and Steps
 
 A **workflow** is a named, ordered list of **steps**. Build one in the Compile
-tab: add steps, reorder them with their **Move up** and **Move down** buttons,
+tab: add steps, reorder them with the up and down arrows on each step,
 and set each step's options. Quire ships a default workflow you can use as is or
 copy and adjust.
 
@@ -48,6 +48,13 @@ Most steps have options, like which kinds of links or comments to remove, or the
 separator placed between joined scenes. A blank line between scenes is written as
 `\n\n` in a separator field.
 
+## Custom Steps
+
+When the built-in steps do not cover a change you want, write a
+[custom step](12-custom-compile-steps.md): a small piece of JavaScript that runs
+on your text in a sandbox, with no access to your files, the network, or your
+system.
+
 ## Leave Scenes Out of an Export
 
 Some scenes are notes to yourself you do not want in a finished file. In the
@@ -58,17 +65,22 @@ entirely.)
 
 ## Where the Manuscript Lands
 
-The **Save as note** step's target sets the output path, and you can template it:
+The **Save as note** step has two fields: a **Folder** to save into and a **File
+name**. Leave the folder empty to save the manuscript in the project folder. Both
+fields accept the same placeholders, so you can name the file after your project
+or sort exports into dated folders:
 
 - `$title` (or `$1`) for the project title.
 - `$project` for the project folder's name.
 - `$draft` for the draft-title label, if the project has one.
 - `$date` for today's date, as `YYYY-MM-DD`.
 
-A leading `/` is relative to the vault root; a leading `./` or `../` is relative
+A new step starts with an empty folder and `$title` as the file name, so it saves
+to a note named after your project, in the project folder. In the folder field, a
+leading `/` is relative to the vault root, and a leading `./` or `../` is relative
 to the project folder; anything else is taken as relative to the project folder.
-Quire adds `.md` if you leave the extension off, and asks before overwriting a
-note that already exists.
+Quire adds `.md` if you leave the extension off the file name, and asks before
+overwriting a note that already exists.
 
 Run a workflow from the Compile tab, or with the **Compile current project**
 command. Quire tells you where the manuscript was saved when it finishes.
