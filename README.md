@@ -53,9 +53,8 @@ end of July 2026;** after that, the regular pricing below applies.
 - **[Pay once, $34 or more](https://buy.stripe.com/cNi4gA4i3bBod7W5Q1bAs07)**
 - **[Subscribe, $5 a month](https://buy.stripe.com/9B69AU4i39tg4Bq92dbAs05)**
 
-A subscription converts to a permanent license after ten monthly payments. From
-then on Quire is yours to keep. The subscription keeps billing until you cancel
-it, though, so if you'd like to stop there, cancel it yourself in your Link
+A subscription converts to a permanent license after ten monthly payments. After conversion, the subscription keeps billing until you cancel
+it. If you'd like to stop there, cancel it yourself in your Link
 account, which your receipt and billing emails link to.
 
 Anything past the tenth payment is patronage, plain and simple, and it goes
