@@ -18,6 +18,8 @@ around them.
 8. [How Quire Stores Your Work](08-how-quire-stores-your-work.md). Where your writing lives, in plain files.
 9. [Settings](09-settings.md). Every option, in one place.
 10. [Licensing](10-licensing.md). Activation, devices, and offline use.
+11. [Styling Your Scenes](11-styling-your-scenes.md). Style your writing surface with CSS.
+12. [Custom Compile Steps](12-custom-compile-steps.md). Write your own compile steps in JavaScript.
 
 ## Install
 

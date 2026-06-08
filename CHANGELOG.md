@@ -11,6 +11,8 @@ notes mirrored here.
 
 ## [Unreleased]
 
+## 1.1.0
+
 ### Added
 
 - **Custom compile steps.** Write your own compile step in JavaScript, run in a

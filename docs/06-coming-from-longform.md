@@ -36,9 +36,11 @@ before you commit, and same-named projects are kept distinct rather than merged.
 
 Your Longform compile workflows come across too. Quire reads them from Longform's
 saved data and recreates each named workflow, since the two tools share the same
-built-in steps. One limit: Longform lets a workflow run custom code steps, which
-Quire does not have yet. A workflow that uses one still imports; Quire brings the
-rest of its steps over and flags the custom step so you can remove or replace it.
+built-in steps. One difference: Longform's custom code steps run with full Node
+access, while Quire's [custom steps](12-custom-compile-steps.md) are sandboxed for
+safety, so a Longform script cannot carry over and run as is. A workflow that uses
+one still imports; Quire brings the rest of its steps over and flags the script
+step so you can recreate it as a custom step.
 
 ## What Is Not Imported
 
