@@ -78,6 +78,12 @@ folder is yours to organize as you like:
 The rule is simple: a folder needs a `_quire_index.md` to mean anything to
 Quire. Without one, it stays out of the way.
 
+One folder is Quire's own: [Galley](04-galley.md) working files live in a
+vault-root folder named `Quire`, which Quire hides from Obsidian's file
+explorer to keep it out of your way. It still shows up in search and the quick
+switcher. If you keep a root folder of your own named `Quire`, it is hidden
+along with it; rename yours to see it in the explorer again.
+
 ## Quire's Own Settings
 
 Two things are not in your project folder:
