@@ -32,7 +32,8 @@ From a scene you can:
 - **Add** a new scene from the field at the foot of the list, or insert one above
   or below another from its menu.
 - **Rename** it. Quire renames the note and keeps its place in the order.
-- **Delete** it. The note goes to your system trash and leaves the list.
+- **Delete** it. The note is removed following your Obsidian "Deleted files"
+  setting (the system trash by default) and leaves the list.
 
 Two scenes in one project cannot share a name, because the name is the note's
 filename.

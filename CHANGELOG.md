@@ -17,9 +17,9 @@ notes mirrored here.
   beside the manuscript. Create a draft from all scenes or just a selection,
   switch drafts from the Quire pane, merge scenes back (replace a scene's text
   in place, or add the draft's version as a copy, with nesting preserved), and
-  promote a draft to become the manuscript outright. Galley, word count, and
-  Compile follow the active draft, and a draft compiles into its own folder so
-  exports never collide. See the new Drafts guide in the docs.
+  promote a draft to become the manuscript outright. Galley and Compile follow
+  the active draft, and a draft compiles into its own folder so exports never
+  collide. See the new Drafts guide in the docs.
 - **Multi-draft Longform import.** Copying a Longform project that holds
   several drafts now brings it in as one Quire project: the latest draft leads
   as the manuscript and the rest arrive as Quire drafts. Picking a single
@@ -46,6 +46,8 @@ notes mirrored here.
   misreports it.
 - An import whose folder was auto-numbered ("Novel 2") now takes its project
   name from that folder instead of keeping the original title.
+- Deleting a parent scene no longer leaves its children behind as missing
+  entries in the scene list.
 
 ## 1.1.0
 

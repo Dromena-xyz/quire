@@ -26,7 +26,7 @@ index. Renaming the draft renames the folder.
 
 The Draft dropdown lists the manuscript and every draft. Whichever is active is
 what the pane shows and what the rest of Quire acts on: the scene list,
-[Galley](04-galley.md), word count, and [Compile](05-compile.md) all follow the
+[Galley](04-galley.md), and [Compile](05-compile.md) all follow the
 active draft. The choice is saved with the project, so it is right where you
 left it after a restart.
 
