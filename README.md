@@ -47,17 +47,11 @@ manuscript outright. The bold rewrite stops being a risk.
 ## Buy a license
 
 Two ways to pay, and both unlock everything. **Launch pricing runs through the
-end of July 2026;** after that, the regular pricing below applies.
-
-**Launch pricing**
+end of July 2026.** After that, Quire moves to its regular pricing: $34 or more
+to own it, or $5 a month.
 
 - **[Pay once, $10](https://buy.stripe.com/4gM14oeWH20O1pe2DPbAs06)**
 - **[Subscribe, $3 a month](https://buy.stripe.com/3cI9AU6qbgVId7WfqBbAs04)**
-
-**Regular pricing**
-
-- **[Pay once, $34 or more](https://buy.stripe.com/cNi4gA4i3bBod7W5Q1bAs07)**
-- **[Subscribe, $5 a month](https://buy.stripe.com/9B69AU4i39tg4Bq92dbAs05)**
 
 A subscription converts to a permanent license after ten monthly payments. After conversion, the subscription keeps billing until you cancel
 it. If you'd like to stop there, cancel it yourself in your Link

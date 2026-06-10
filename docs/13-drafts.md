@@ -55,9 +55,8 @@ once.
 Merging changes text and adds scenes. It never reorders or removes what is
 already in the target, so the manuscript's structure is always yours. The
 summary at the bottom states exactly what will happen, and a confirmation asks
-before anything is overwritten. Replaced text can be recovered with Obsidian's
-File Recovery, if you have that core plugin enabled. To bring over a draft's
-*structure*, its order and nesting, promote the draft instead.
+before anything is overwritten. To bring over a draft's *structure*, its order
+and nesting, promote the draft instead.
 
 ## Promote a Draft
 
