@@ -2,8 +2,9 @@
 
 ## Install
 
-Quire is closed-source, so it lives outside Obsidian's community plugin
-directory (that directory is open-source only). Install it one of two ways.
+Quire is closed-source, so it installs from GitHub rather than Obsidian's
+community plugin directory, which isn't accepting new closed-source plugins
+for now. Install it one of two ways.
 
 **With BRAT (recommended, stays up to date).**
 

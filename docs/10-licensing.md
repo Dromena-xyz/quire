@@ -12,7 +12,7 @@ server once and switches to its active state.
 
 ## Devices and Activations
 
-A license covers a set number of activations. Each vault on each device uses one,
+A license covers five activations. Each vault on each device uses one,
 so the same vault synced to your laptop and desktop counts as two. The License
 section shows how many you have used. If you reach the limit, free one with
 **Deactivate this vault on this device** on a machine you no longer use it on,

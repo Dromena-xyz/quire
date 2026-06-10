@@ -84,8 +84,8 @@ A draft is a normal subfolder inside the project, holding its own
 Drafts go one level deep: a draft cannot hold drafts of its own.
 
 Compile follows the active draft, and `$title` in the **Save as note** step is
-the active draft's name, so a draft's manuscript file lands inside the draft's
-own folder and never overwrites the manuscript's export.
+the active draft's name, so the compiled file lands inside the draft's own
+folder and never overwrites the manuscript's export.
 
 Coming from Longform with multiple drafts? The importer brings them in as one
 project. See [Coming from Longform](06-coming-from-longform.md).

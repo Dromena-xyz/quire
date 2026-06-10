@@ -24,8 +24,9 @@ around them.
 
 ## Install
 
-Quire is closed-source, so it is distributed outside Obsidian's community plugin
-directory, which lists open-source plugins only. You install it with the
+Quire is closed-source, so it installs from GitHub rather than Obsidian's
+community plugin directory, which isn't accepting new closed-source plugins
+for now. You install it with the
 [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin or by downloading a
 release by hand. Full steps are in [Getting Started](01-getting-started.md) and
 on the [main page](https://github.com/Dromena-xyz/quire).

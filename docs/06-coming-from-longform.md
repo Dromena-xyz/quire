@@ -1,10 +1,9 @@
 # Coming from Longform
 
 Quire is its own tool, with its own model: one index per project, nested scenes,
-the Galley, and a fresh codebase underneath. It is not a drop-in replacement for
-Longform, and it does not try to be. What it does do is meet you where you are. If
-your work lives in Longform today, Quire brings those projects across cleanly so
-you can pick up in Quire without rebuilding anything by hand.
+the Galley, and a fresh codebase underneath. If your work lives in Longform
+today, Quire brings those projects across cleanly so you can pick up without
+rebuilding anything by hand.
 
 The importer is strictly non-destructive. It only reads your Longform projects
 and creates new Quire ones; it never changes or deletes anything Longform owns.

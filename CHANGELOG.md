@@ -11,6 +11,8 @@ notes mirrored here.
 
 ## [Unreleased]
 
+## 1.2.0
+
 ### Added
 
 - **Drafts.** Branch alternate versions of your project and rework them safely
@@ -38,6 +40,12 @@ notes mirrored here.
   separating what happens from how to get things back.
 - **Project settings.** Renaming a project commits with a Save button or
   Enter, instead of when the field loses focus.
+- **New projects** start on the starter workflow, ready to compile.
+- **Deactivating a license** asks for confirmation first, and the locked
+  screens now point at the recovery steps that actually exist.
+- **A consistency pass** across the interface: menu items that open a dialog
+  say so, confirmations focus Cancel so Enter never destroys, clicking a scene
+  whose file is missing explains itself, and notices read uniformly.
 
 ### Fixed
 

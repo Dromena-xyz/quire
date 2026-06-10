@@ -7,9 +7,7 @@ your head. A Galley removes that tradeoff.
 
 A Galley stitches any run of scenes into one continuous document you can read and
 write as a whole, while every keystroke flows back to the individual scene notes
-underneath. You get the structure of separate files and the flow of a single
-draft at the same time, and you never have to choose between them. This is the
-piece writers reach for most.
+underneath. This is the piece writers reach for most.
 
 ## Write the Whole Thing
 
