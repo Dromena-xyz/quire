@@ -82,5 +82,9 @@ to the project folder; anything else is taken as relative to the project folder.
 Quire adds `.md` if you leave the extension off the file name, and asks before
 overwriting a note that already exists.
 
+If the project has [drafts](13-drafts.md), Compile runs on the active draft, and
+`$title` is that draft's name. A draft's manuscript saves into the draft's own
+folder, so compiling a draft never overwrites the manuscript's export.
+
 Run a workflow from the Compile tab, or with the **Compile current project**
 command. Quire tells you where the manuscript was saved when it finishes.

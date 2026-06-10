@@ -11,6 +11,42 @@ notes mirrored here.
 
 ## [Unreleased]
 
+### Added
+
+- **Drafts.** Branch alternate versions of your project and rework them safely
+  beside the manuscript. Create a draft from all scenes or just a selection,
+  switch drafts from the Quire pane, merge scenes back (replace a scene's text
+  in place, or add the draft's version as a copy, with nesting preserved), and
+  promote a draft to become the manuscript outright. Galley, word count, and
+  Compile follow the active draft, and a draft compiles into its own folder so
+  exports never collide. See the new Drafts guide in the docs.
+- **Multi-draft Longform import.** Copying a Longform project that holds
+  several drafts now brings it in as one Quire project: the latest draft leads
+  as the manuscript and the rest arrive as Quire drafts. Picking a single
+  draft imports it as the whole project.
+
+### Changed
+
+- **Import review.** Each copy's destination folder is shown and editable
+  before anything is written, with live name checking. A project that was
+  already imported can be imported again under a new folder name. Clearer
+  language and layout throughout the importer.
+- **Compile pane.** The starter workflow can no longer be deleted (rename or
+  duplicate it instead), workflows gained a Duplicate action, and the Save as
+  note step stays pinned as the last step.
+- **Confirmations.** Destructive dialogs (delete, promote, merge) are shorter,
+  separating what happens from how to get things back.
+- **Project settings.** Renaming a project commits with a Save button or
+  Enter, instead of when the field loses focus.
+
+### Fixed
+
+- The importer reads Longform index files directly from disk, so a populated
+  project no longer imports empty when Obsidian's metadata cache momentarily
+  misreports it.
+- An import whose folder was auto-numbered ("Novel 2") now takes its project
+  name from that folder instead of keeping the original title.
+
 ## 1.1.0
 
 ### Added

@@ -20,6 +20,7 @@ around them.
 10. [Licensing](10-licensing.md). Activation, devices, and offline use.
 11. [Styling Your Scenes](11-styling-your-scenes.md). Style your writing surface with CSS.
 12. [Custom Compile Steps](12-custom-compile-steps.md). Write your own compile steps in JavaScript.
+13. [Drafts](13-drafts.md). Branch alternate versions, merge scenes back, promote the winner.
 
 ## Install
 

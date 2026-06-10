@@ -47,4 +47,8 @@ structure is never lost just because a file moved.
 For the exact shape of the index and a full tour of where everything lives, see
 [How Quire Stores Your Work](08-how-quire-stores-your-work.md).
 
-Next, shape your draft in [The Scene List](03-the-scene-list.md).
+A project can also carry [drafts](13-drafts.md): alternate versions of some or
+all of its scenes, each in its own subfolder, ready to merge back or take over
+when the rewrite wins.
+
+Next, shape your scenes in [The Scene List](03-the-scene-list.md).

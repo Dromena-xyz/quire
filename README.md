@@ -29,7 +29,7 @@ idea as Scrivenings. Galley is Quire's version, rebuilt for Obsidian.
 ![A Galley: several scenes flowing together as one document with dividers between them, the scene list on the left](images/galley.png)
 
 **Compile.** Turn your scenes into one finished manuscript. You assemble a
-*workflow* from steps that tidy the draft on the way out, dropping frontmatter,
+*workflow* from steps that tidy the text on the way out, dropping frontmatter,
 stripping the wikilinks and callouts and other Obsidian markup that shouldn't
 reach a reader, prepending scene titles, setting your own separators, and
 writing the result to any note. Scenes can sit out of a compile without being
@@ -37,6 +37,12 @@ deleted, and every project keeps its own workflow, so a novel and a research
 paper export differently.
 
 <img src="images/compile.png" width="240" alt="The Compile tab: a workflow's steps with their Scene and Join roles">
+
+**Drafts.** Branch a copy of any scenes, or the whole book, and rework it
+beside the version you trust. Each draft is its own set of notes inside the
+project. Switch between them in the pane, write and compile each on its own,
+then merge the keepers back scene by scene, or promote a draft to become the
+manuscript outright. The bold rewrite stops being a risk.
 
 ## Buy a license
 
@@ -140,7 +146,8 @@ project** under "Switching from Longform." Quire finds your Longform projects an
 them in without changing or deleting anything Longform owns. You can copy a
 project into a new folder, or add a Quire index in place next to the Longform
 one. Either way Quire shows you exactly what will happen before it writes
-anything, and each Longform draft comes in as its own Quire project.
+anything, and a copied project's Longform drafts come across with it, as Quire
+drafts inside one project.
 
 ## Where your license works
 
@@ -173,9 +180,6 @@ Quire launches lean and keeps growing. The goal behind every release is to bring
 what writers love about Scrivener into something fully Obsidian-native, built on
 notes. Some of what's ahead:
 
-- **Drafts.** Keep alternate versions of a scene or a whole chapter inside a
-  project, rework them on their own, then merge the parts you want back into
-  your manuscript.
 - **Mobile.** Write on phone and tablet once we can support it without the
   licensing quirks noted above.
 - **An account page.** Manage your license and devices from the web, not only

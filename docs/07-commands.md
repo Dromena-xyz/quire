@@ -12,6 +12,10 @@ your own under `Settings > Hotkeys` if you reach for one often.
 | **Jump to project** | A quick switcher to open any Quire project in the pane. |
 | **Jump to scene in current project** | A quick switcher to open a scene from the current project. |
 | **Compile current project** | Runs the current project's compile workflow and writes the manuscript. |
+| **Compile a project** | Picks any project, then compiles it, without leaving the keyboard. |
+| **New draft** | Creates a draft of the current project from the scenes you pick. See [Drafts](13-drafts.md). |
+| **Promote draft to manuscript** | Makes the active draft the manuscript, replacing the current one. |
+| **Delete draft** | Deletes the active draft, after a confirmation. The manuscript itself cannot be deleted. |
 | **Import a Longform project** | Opens the Longform importer. See [Coming from Longform](06-coming-from-longform.md). |
 
 The same actions live in the Quire pane itself: the project picker and tabs, the

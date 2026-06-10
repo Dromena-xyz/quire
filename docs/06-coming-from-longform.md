@@ -27,10 +27,15 @@ You choose how each project comes over:
 
 ## Drafts
 
-A Longform project can hold several drafts. Quire keeps one index per project, so
-each draft you pick comes in as its own Quire project; the picker tells you this
-before you commit, and same-named projects are kept distinct rather than merged.
-(Multi-draft support is on the roadmap and may return to Quire later.)
+A Longform project can hold several drafts, and Quire has
+[drafts](13-drafts.md) of its own, so they come across together. Copy a
+multi-draft project and it becomes one Quire project: the latest draft leads as
+the manuscript, and the rest come in as Quire drafts inside it. The review
+screen names which draft leads. If you would rather lead with a different one,
+promote it after importing.
+
+Importing in place keeps every file where it sits, so there each Longform draft
+becomes its own Quire project, right where it lives.
 
 ## Compile Workflows
 

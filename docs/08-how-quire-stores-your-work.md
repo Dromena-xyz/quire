@@ -54,6 +54,7 @@ Take" and "Pastries in the Pantry" are children of "An Unexpected Party."
 | `sceneTemplate` | A template applied to new scenes, when one is set. |
 | `compileExclusions` | Scenes left out of a particular compile workflow, when any are. |
 | `title`, `draftTitle` | The project's title label, when set. |
+| `activeDraft` | Which [draft](13-drafts.md) the pane is acting on, when the project has drafts. |
 
 You normally never open this note, but nothing stops you. If you understand the
 shape above, you can read it, back it up, or repair it by hand.
@@ -63,15 +64,16 @@ shape above, you can read it, back it up, or repair it by hand.
 Quire manages only your scene notes and the index. Everything else in a project
 folder is yours to organize as you like:
 
-- **A stray note** in the scene folder — one that is not in the scene list —
+- **A stray note** in the scene folder, one that is not in the scene list,
   shows in the Quire pane as *untracked*. Quire never pulls it in or changes it
   on its own; you choose whether to add it as a scene or have Quire ignore it.
 - **A subfolder, and everything inside it, is ignored.** Quire reads only the
   notes that sit directly in the scene folder, so you can keep research, images,
   outlines, or loose notes in a subfolder without any of it ever showing up as a
-  scene. Nothing is hidden or moved — it simply isn't Quire's concern. A
-  subfolder matters to Quire only when it holds its own `_quire_index.md`, at
-  which point it is just another Quire project.
+  scene. Nothing is hidden or moved; it simply isn't Quire's concern. A
+  subfolder matters to Quire only when it holds its own `_quire_index.md`:
+  inside a project, that makes it one of the project's [drafts](13-drafts.md),
+  and anywhere else it is simply another Quire project.
 
 The rule is simple: a folder needs a `_quire_index.md` to mean anything to
 Quire. Without one, it stays out of the way.
