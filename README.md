@@ -173,6 +173,9 @@ Quire launches lean and keeps growing. The goal behind every release is to bring
 what writers love about Scrivener into something fully Obsidian-native, built on
 notes. Some of what's ahead:
 
+- **Drafts.** Keep alternate versions of a scene or a whole chapter inside a
+  project, rework them on their own, then merge the parts you want back into
+  your manuscript.
 - **Mobile.** Write on phone and tablet once we can support it without the
   licensing quirks noted above.
 - **An account page.** Manage your license and devices from the web, not only
