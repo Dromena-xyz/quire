@@ -38,6 +38,16 @@ From a scene you can:
 Two scenes in one project cannot share a name, because the name is the note's
 filename.
 
+## Project Settings
+
+The gear beside the project dropdown opens the project's settings in the pane.
+Rename the project there (the folder is renamed along with the title), and point
+the project at a **scene template**: a note whose contents seed every new scene
+in this project. Leave it empty to use the global template from
+[Quire's settings](09-settings.md).
+
+![Project settings in the pane: the title field with its Save button, and the scene template](../images/project-settings.png)
+
 ## The Index Is the Source of Truth
 
 The list reflects what the index records; the notes fill it in. If a scene note

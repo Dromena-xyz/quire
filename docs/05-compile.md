@@ -12,6 +12,8 @@ tab: add steps, reorder them with the up and down arrows on each step,
 and set each step's options. Quire ships a default workflow you can use as is or
 copy and adjust.
 
+![The Compile tab: a workflow's steps in order, each with its own options](../images/compile.png)
+
 Each step plays one of three roles, and steps run top to bottom:
 
 - **Scene steps** transform every scene on its own, before the scenes are joined.

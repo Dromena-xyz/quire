@@ -6,6 +6,8 @@ without touching the version you trust. Your main version is the **manuscript**.
 A draft is a real copy of the scenes you choose, so the two live side by side,
 and nothing you do in one changes the other until you say so.
 
+![The Draft row's menu: new draft, rename, promote to manuscript, delete, and merge scenes](../images/draft-menu.png)
+
 ## Create a Draft
 
 In the Quire pane, every project shows a **Draft** row. Open its **⋯** menu and
@@ -13,6 +15,8 @@ choose **New draft**, or run the **New draft** command. Quire suggests a name
 ("Draft 2", counting up) and asks which scenes to copy. All of them are selected
 to start. Checking or unchecking a parent carries its children, and you can
 uncheck a child while keeping its parent.
+
+![The New draft dialog: a name field and a checklist of scenes to copy](../images/new-draft-modal.png)
 
 To start a draft from just the scenes you are reworking, select them in the
 scene list and choose **New draft from selection** from the scene menu. Copying

@@ -3,6 +3,8 @@
 The Quire pane shows your project as a list of scenes in reading order. This is
 where you shape the draft: reorder, nest, group, and set scenes aside.
 
+![The scene list: nested scenes with disclosure arrows, a parent and two of its scenes selected](../images/scene-list.png)
+
 ## Reorder and Nest
 
 Drag a scene to move it. Quire reads where you drop it, so reordering and nesting
@@ -40,6 +42,8 @@ a scene it is also left out of any [Compile](05-compile.md). Ignored files
 collect in their own panel, where **Restore** brings one back into the project as
 a scene.
 
+![The ignored scenes panel listing an ignored file with a Restore button](../images/ignored-scenes.png)
+
 To keep a scene in the project but leave it out of a single export, exclude it in
 the Compile tab instead. See [Compile](05-compile.md).
 
@@ -48,3 +52,5 @@ the Compile tab instead. See [Compile](05-compile.md).
 Every scene's menu gathers its actions in one place: open in a Galley, rename,
 insert a scene above or below, move and indent, ignore, and delete. The same
 actions apply to a multi-selection wherever they make sense.
+
+![The scene menu open on a three-scene selection, with Galley, draft, move, ignore, and delete actions](../images/scene-menu.png)
