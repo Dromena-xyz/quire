@@ -5,6 +5,8 @@ treat a long piece of writing as the many small parts it is really made of. Ther
 is no database and no hidden state: your words live in plain Markdown notes you
 can read, sync, and back up with or without Quire.
 
+![A Quire project: the scene list and its nested scenes in the pane, a scene open in the editor](../images/project-overview.png)
+
 ## What a Project Is
 
 When you make a project, Quire creates a folder containing:
