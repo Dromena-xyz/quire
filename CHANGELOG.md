@@ -11,6 +11,14 @@ notes mirrored here.
 
 ## [Unreleased]
 
+## 1.2.1
+
+### Fixed
+
+- Dragging a scene is smooth again: the drop indicator tracks the pointer
+  instead of trailing it, and a reorder made right on the heels of another no
+  longer needs a second try to land.
+
 ## 1.2.0
 
 ### Added
