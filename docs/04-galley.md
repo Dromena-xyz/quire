@@ -9,6 +9,8 @@ A Galley stitches any run of scenes into one continuous document you can read an
 write as a whole, while every keystroke flows back to the individual scene notes
 underneath. This is the piece writers reach for most.
 
+![A Galley document: scenes flowing together as one piece, divided by quiet scene markers, with the scene list alongside](../images/galley.png)
+
 ## Write the Whole Thing
 
 Open a Galley on the scenes you want:
