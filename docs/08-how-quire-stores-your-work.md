@@ -20,6 +20,9 @@ Each project is a folder in your vault holding two kinds of file:
   and how they nest. The scene notes themselves stay clean, with no ordering
   numbers in their names and no metadata you did not write.
 
+A project with [drafts](13-drafts.md) also holds one subfolder per draft, each a
+small project of its own: the same two kinds of file, one level down.
+
 ## The Index Note
 
 Everything Quire needs to rebuild your project sits under a single `quire` key in
@@ -32,17 +35,17 @@ quire:
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - An Unexpected Party
-    - - Took and Take
-      - Pastries in the Pantry
-    - Roast Mutton
+    - The Green Light
+    - - Hold Your Tongue
+      - A Great Uncle
+    - Ash and Gasoline
   ignoredFiles: []
 ---
 ```
 
 The `scenes` list is the heart of it: each entry is a scene's note name, in reading
-order, and a nested list holds that scene's children. In the example, "Took and
-Take" and "Pastries in the Pantry" are children of "An Unexpected Party."
+order, and a nested list holds that scene's children. In the example, "Hold
+Your Tongue" and "A Great Uncle" are children of "The Green Light."
 
 | Field | What it holds |
 | --- | --- |
@@ -67,13 +70,13 @@ folder is yours to organize as you like:
 - **A stray note** in the scene folder, one that is not in the scene list,
   shows in the Quire pane as *untracked*. Quire never pulls it in or changes it
   on its own; you choose whether to add it as a scene or have Quire ignore it.
-- **A subfolder, and everything inside it, is ignored.** Quire reads only the
+- **A subfolder is left alone, with one exception.** Quire reads only the
   notes that sit directly in the scene folder, so you can keep research, images,
   outlines, or loose notes in a subfolder without any of it ever showing up as a
-  scene. Nothing is hidden or moved; it simply isn't Quire's concern. A
-  subfolder matters to Quire only when it holds its own `_quire_index.md`:
-  inside a project, that makes it one of the project's [drafts](13-drafts.md),
-  and anywhere else it is simply another Quire project.
+  scene. Nothing is hidden or moved; it simply isn't Quire's concern. The
+  exception is a subfolder holding its own `_quire_index.md`: inside a project,
+  that is one of the project's [drafts](13-drafts.md), and anywhere else it is
+  simply another Quire project.
 
 The rule is simple: a folder needs a `_quire_index.md` to mean anything to
 Quire. Without one, it stays out of the way.

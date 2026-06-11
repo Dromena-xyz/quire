@@ -18,7 +18,7 @@ reorderable, nestable outline. Drag to reorder, nest one scene under another,
 and move a parent to carry its children with it. They stay ordinary notes
 throughout, so the rest of Obsidian keeps working on them.
 
-<img src="images/scene-list.png" width="240" alt="The Quire pane showing a project's scenes as a nested outline, with several selected">
+<img src="images/scene-list.png" width="240" alt="The Quire pane showing a project's scenes as a nested outline">
 
 **Galley.** Open a scene together with its children, or hand-pick any set of
 scenes, and write them as one flowing document. Your edits save back into each
@@ -39,8 +39,8 @@ paper export differently.
 <img src="images/compile.png" width="240" alt="The Compile tab: a workflow's steps with their Scene and Join roles">
 
 **Drafts.** Branch a copy of any scenes, or the whole book, and rework it
-beside the version you trust. Each draft is its own set of notes inside the
-project. Switch between them in the pane, write and compile each on its own,
+beside the version you trust. Each draft is its own subfolder of scenes inside
+the project folder. Switch between them in the pane, write and compile each on its own,
 then merge the keepers back scene by scene, or promote a draft to become the
 manuscript outright. The bold rewrite stops being a risk.
 
@@ -162,7 +162,7 @@ free the slot.
 
 ## Requirements
 
-Obsidian 1.11.4 or later, on macOS, Windows, or Linux desktop.
+Obsidian 1.11.5 or later, on macOS, Windows, or Linux desktop.
 
 > [!NOTE]
 > Mobile is on the roadmap, not in this release. We want it to work cleanly with
