@@ -39,6 +39,8 @@ error, before you use the step. The sample is a short stand-in, so a step that
 relies on something it lacks may show an error there yet still work on your real
 scenes.
 
+![The New custom step dialog: name, description, and the code field with its Test button](../images/custom-step.png)
+
 ## Where a Custom Step Runs
 
 A custom step works like the built-in cleanup steps, and **its position in the

@@ -56,6 +56,8 @@ their nesting intact. Copying a parent scene brings its children as part of the
 copy. Two batch buttons set every matched scene to Replace, or to copies, at
 once.
 
+![The Merge scenes dialog: per-scene Replace or Add a copy choices, batch buttons, and a summary of what will happen](../images/merge-scenes.png)
+
 Merging changes text and adds scenes. It never reorders or removes what is
 already in the target, so the manuscript's structure is always yours. The
 summary at the bottom states exactly what will happen, and a confirmation asks
