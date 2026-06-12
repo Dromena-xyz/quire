@@ -47,8 +47,7 @@ manuscript outright. The bold rewrite stops being a risk.
 ## Buy a license
 
 Two ways to pay, and both unlock everything. **Launch pricing runs through the
-end of July 2026.** After that, Quire moves to its regular pricing: $34 or more
-to own it, or $5 a month.
+end of July 2026.**
 
 - **[Pay once, $10](https://buy.stripe.com/4gM14oeWH20O1pe2DPbAs06)**
 - **[Subscribe, $3 a month](https://buy.stripe.com/3cI9AU6qbgVId7WfqBbAs04)**
