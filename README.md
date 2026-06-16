@@ -18,7 +18,7 @@ reorderable, nestable outline. Drag to reorder, nest one scene under another,
 and move a parent to carry its children with it. They stay ordinary notes
 throughout, so the rest of Obsidian keeps working on them.
 
-<img src="images/scene-list.png" width="240" alt="The Quire pane showing a project's scenes as a nested outline">
+<img src="images/scene-drag.gif" width="260" alt="Dragging a parent scene in the Quire pane: its child scenes travel with it, keeping their nesting">
 
 **Galley.** Open a scene together with its children, or hand-pick any set of
 scenes, and write them as one flowing document. Your edits save back into each
