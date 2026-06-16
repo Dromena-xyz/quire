@@ -1,7 +1,7 @@
 {
   "id": "quire",
   "name": "Quire",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "minAppVersion": "1.11.5",
   "description": "Organize and write long projects as ordered scene files.",
   "author": "Dromena",

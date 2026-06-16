@@ -11,6 +11,22 @@ notes mirrored here.
 
 ## [Unreleased]
 
+## 1.2.2
+
+### Fixed
+
+- A callout, blockquote, or list at the end of a Galley scene no longer
+  bleeds across the divider into the next scene, whether you are reading or
+  writing.
+- Closing a Galley by clicking one of its scenes now keeps that scene in
+  focus, rather than jumping to another reopened tab.
+- Saving a scene from a Galley keeps its trailing blank line, so the scene
+  reads the same when you open it on its own.
+
+### Changed
+
+- Tighter spacing above scene dividers in a Galley.
+
 ## 1.2.1
 
 ### Fixed
